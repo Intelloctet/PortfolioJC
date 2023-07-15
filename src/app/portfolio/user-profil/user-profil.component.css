@@ -1,0 +1,22 @@
+#user-profil{
+  margin-top: 20px;
+  padding: 10px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+#image-profil{
+  width: 20%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#user-describe{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+}
+#user-contacts{
+  width: 20%;
+}

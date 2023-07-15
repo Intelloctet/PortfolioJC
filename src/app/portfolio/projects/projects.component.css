@@ -1,0 +1,21 @@
+#projects{
+  padding: 20px 50px;
+}
+
+#project-list{
+  background-color: #f3f3f320;
+  padding: 10px;
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+.project{
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border-radius: 50px;
+  margin: 5px 0;
+}

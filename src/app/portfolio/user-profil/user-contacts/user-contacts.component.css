@@ -1,0 +1,15 @@
+#user-contacts{
+  display: flex;
+  flex-direction: column;
+}
+
+#contact-link{
+  display: flex;
+  justify-content: center;
+}
+#contact-ici{
+  text-align: center;
+}
+.logo{
+  width: 60px;
+}

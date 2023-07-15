@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  background-color: #096288;
+  width: 100%;
+  height: 100%;
+}
+* {
+  font-size: 16px;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}

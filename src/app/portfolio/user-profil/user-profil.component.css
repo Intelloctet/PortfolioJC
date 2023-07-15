@@ -1,5 +1,6 @@
+/*******Standard screen desktop***********/
 #user-profil{
-  margin-top: 20px;
+  margin-top: 4rem;
   padding: 10px 0;
   display: flex;
   flex-wrap: wrap;
@@ -19,4 +20,22 @@
 }
 #user-contacts{
   width: 20%;
+}
+
+/*******************Mobile screen < 720px *************************/
+
+@media only screen and (max-width: 720px) {
+  #user-profil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #user-profil>div{
+    margin-top: 1rem;
+  }
+
+  #image-profil{
+    width: 0px;
+  }
 }

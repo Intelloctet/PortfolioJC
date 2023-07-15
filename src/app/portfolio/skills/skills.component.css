@@ -1,3 +1,4 @@
+/******************* Desktop standard *************************/
 #skills{
   padding: 20px 50px;
 }
@@ -36,6 +37,7 @@
   align-items: center;
   z-index: 1;
   height: 3rem;
+  flex-wrap: wrap;
 
 }
 .skill-content>div{
@@ -46,4 +48,16 @@
 
 .skill-text{
   color: black;
+}
+
+/*******************Mobile screen < 720px *************************/
+@media only screen and (max-width: 720px) {
+  .skill-content>div{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .skill{
+    width: 100%;
+  }
 }

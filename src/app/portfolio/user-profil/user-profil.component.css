@@ -1,25 +1,17 @@
 /*******Standard screen desktop***********/
 #user-profil{
-  margin-top: 4rem;
-  padding: 10px 0;
-  display: flex;
-  flex-wrap: wrap;
+    margin: 3rem;
+    display: flex;
 }
 #image-profil{
-  width: 20%;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  width: 30rem;
 }
 #user-describe{
-  width: 60%;
   display: flex;
   flex-direction: column;
-  align-content: space-around;
 }
 #user-contacts{
-  width: 20%;
+  width: 30rem;
 }
 
 /*******************Mobile screen < 720px *************************/

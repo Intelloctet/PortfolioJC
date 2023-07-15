@@ -38,6 +38,7 @@
   z-index: 1;
   height: 3rem;
   flex-wrap: wrap;
+  overflow: hidden;
 
 }
 .skill-content>div{
@@ -59,5 +60,10 @@
   }
   .skill{
     width: 100%;
+  }
+  .skill-content:last-child{
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
   }
 }

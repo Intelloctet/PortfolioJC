@@ -2,13 +2,13 @@
 #user-profil{
     margin: 3rem;
     display: flex;
+    align-items: center;
 }
-#image-profil{
- 
-}
+
 #user-describe{
   display: flex;
   flex-direction: column;
+  margin-left: 5rem;
 }
 #user-contacts{
   width: 30rem;
@@ -27,7 +27,12 @@
     margin-top: 1rem;
   }
 
-  #image-profil{
-    
+  #user-describe{
+    margin-left: 0rem;
+    text-align: center;
+  }
+
+  #user-contacts{
+    padding-top: 1rem;
   }
 }

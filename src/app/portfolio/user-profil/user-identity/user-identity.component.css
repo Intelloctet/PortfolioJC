@@ -4,3 +4,14 @@
 #user-id li{
   font-size: 18px;
 }
+
+#user-id li:first-child{
+  font-size: 2.5rem;
+}
+
+#user-id li:nth-child(2){
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-shadow: 0 0 1rem black;
+  margin-bottom: 1rem;
+}

@@ -1,8 +1,8 @@
 #image-profil{
   width: 7rem;
   border-radius: 60px;
-  outline:1rem solid grey;
-  box-shadow: 0 5px 5rem black;
+  outline:1rem solid white;
+  box-shadow: 0 0 5rem black;
 }
 .shadow-profil{
   width: 7rem;

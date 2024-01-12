@@ -1,0 +1,41 @@
+[debug] [2023-08-01T19:41:57.446Z] ----------------------------------------------------------------------
+[debug] [2023-08-01T19:41:57.463Z] Command:       /usr/local/bin/firebase /home/jckristin/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase init
+[debug] [2023-08-01T19:41:57.464Z] CLI Version:   12.4.4
+[debug] [2023-08-01T19:41:57.464Z] Platform:      linux
+[debug] [2023-08-01T19:41:57.465Z] Node Version:  v16.16.0
+[debug] [2023-08-01T19:41:57.465Z] Time:          Tue Aug 01 2023 22:41:57 GMT+0300 (East Africa Time)
+[debug] [2023-08-01T19:41:57.466Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-08-01T19:41:57.600Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-08-01T19:41:57.601Z] > authorizing via signed-in user (jeanchristin@coontents.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/jckristin/Developments/2023/Perso Pro/Projects/PortfolioJC
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-08-01T19:42:04.855Z] Using project from CLI flag: jc-portfoliobyio
+[debug] [2023-08-01T19:42:04.863Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/jc-portfoliobyio [none]
+[debug] [2023-08-01T19:42:04.913Z] *** [apiv2] error from fetch(https://firebase.googleapis.com/v1beta1/projects/jc-portfoliobyio, {"headers":{},"method":"GET","signal":{}}): FetchError: request to https://firebase.googleapis.com/v1beta1/projects/jc-portfoliobyio failed, reason: getaddrinfo ENOTFOUND firebase.googleapis.com
+[debug] [2023-08-01T19:42:04.914Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects/jc-portfoliobyio (original: request to https://firebase.googleapis.com/v1beta1/projects/jc-portfoliobyio failed, reason: getaddrinfo ENOTFOUND firebase.googleapis.com)
+[debug] [2023-08-01T19:42:04.924Z] FirebaseError: Failed to make request to https://firebase.googleapis.com/v1beta1/projects/jc-portfoliobyio
+    at RetryOperation._fn (/home/jckristin/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/apiv2.js:243:31)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to get Firebase project jc-portfoliobyio. Please make sure the project exists and your account has permission to access it.

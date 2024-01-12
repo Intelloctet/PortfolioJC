@@ -10,7 +10,7 @@ Allow: /
 
 User-agent: Yahoo Pipes 2.0
 Disallow: /
-
+whi
 User-agent: Facebot
 Disallow: /archive/graphs.php
 

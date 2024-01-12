@@ -20,3 +20,13 @@
   border: 0.5rem solid rgb(200, 200, 200);
   box-shadow: 0 0 1rem rgb(33, 33, 130);
 }
+
+.project:hover{
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border-radius: 50px;
+  margin: 5px 0;
+  border: 0.8rem solid rgb(200, 200, 200);
+  box-shadow: 0 0 1rem rgb(255, 255, 255);
+}

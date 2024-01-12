@@ -1,0 +1,17 @@
+{
+    "HELLO":"Bonjour",
+    "manager": "Administrateur",
+    "organization": "Organisation",
+    "contactus":"Contactez-nous",
+    "signin":"Se connecter",
+    "signup":"S'inscrire",
+    "welcome_back":"Bon retour",
+    "pass_forget":"Mot de passe oublié?",
+    "login_google":"Se connecter avec un compte Google",
+    "email":"Adresse mail",
+    "password":"Mot de passe",
+    "_error_email_empty":"Adresse mail ne peut pas être vide!",
+    "_error_email_invalid":"Adresse mail invalid!",
+    "_error_password_invalid":"Mot de passe invalid!",
+    "signup-user-title":"Completez les champs par vos informations"
+}

@@ -5,6 +5,8 @@ import { ImageProfilComponent } from './image-profil/image-profil.component';
 import { UserIdentityComponent } from './user-identity/user-identity.component';
 import { UserDescriptionComponent } from './user-description/user-description.component';
 import { UserContactsComponent } from './user-contacts/user-contacts.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { TranslateModule } from '@ngx-translate/core';
 
 
 
@@ -17,7 +19,9 @@ import { UserContactsComponent } from './user-contacts/user-contacts.component';
     UserContactsComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    FontAwesomeModule,
+    TranslateModule
   ],
   exports: [
     UserProfilComponent

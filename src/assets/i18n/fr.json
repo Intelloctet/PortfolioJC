@@ -1,17 +1,19 @@
 {
-    "HELLO":"Bonjour",
-    "manager": "Administrateur",
-    "organization": "Organisation",
-    "contactus":"Contactez-nous",
-    "signin":"Se connecter",
-    "signup":"S'inscrire",
-    "welcome_back":"Bon retour",
-    "pass_forget":"Mot de passe oublié?",
-    "login_google":"Se connecter avec un compte Google",
-    "email":"Adresse mail",
-    "password":"Mot de passe",
-    "_error_email_empty":"Adresse mail ne peut pas être vide!",
-    "_error_email_invalid":"Adresse mail invalid!",
-    "_error_password_invalid":"Mot de passe invalid!",
-    "signup-user-title":"Completez les champs par vos informations"
+    "description": {
+        "job-title": "Développeur Web - Fullstack",
+        "grade":"Ingénieur sortant de l'Ecole Nationale d'Informatique",
+        "university": "Université de Fianarantsoa Madagascar",
+        "phone":"Téléphone: +261349487350 | +261333470977",
+        "email":"Mail: jeanchristin.ig.network@gmail.com or it.ckristin.io@gmail.com",
+        "profil":"Le développement d'un logiciel est un processus laborieux et tant que cela me pasionne,j'essaie toujours de m'évoluer avec l'expérience. Mais le plus important est de travailler en équipe pour avancer plus vite et être dans le temps. "
+    },
+    "skill": {
+        "title":"Compétences Acquises",
+        "bd":"Base de données ",
+        "other":"Autres"
+    },
+    "contactus":"Vous pouvez me contacter ici!",
+    "project":{
+        "title":"Liste des projects réalisés"
+    }
 }

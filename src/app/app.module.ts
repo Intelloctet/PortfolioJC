@@ -4,7 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PortfolioModule } from "./portfolio/portfolio.module";
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
@@ -24,6 +24,7 @@ export function createTranslateLoader(http: HttpClient) {
         BrowserModule,
         AppRoutingModule,
         PortfolioModule,
+        HttpClientModule,
         TranslateModule.forRoot(
             {
               defaultLanguage: 'en',
